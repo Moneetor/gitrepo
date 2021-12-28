@@ -1,0 +1,15 @@
+/testdir/hooks/applypatch-msg.sample
+/testdir/hooks/commit-msg.sample
+/testdir/config
+/testdir/description
+/testdir/hooks/fsmonitor-watchman.sample
+/testdir/HEAD
+/testdir/hooks/post-update.sample
+/testdir/hooks/pre-applypatch.sample
+/testdir/hooks/pre-commit.sample
+/testdir/hooks/pre-merge-commit.sample
+/testdir/hooks/pre-push.sample
+/testdir/hooks/pre-rebase.sample
+/testdir/hooks/pre-receive.sample
+/testdir/hooks/prepare-commit-msg.sample
+/testdir/hooks/update.sample
