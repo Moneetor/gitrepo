@@ -26,6 +26,7 @@ def git_init_local(directory='', remote_path=''):
     os.system("git commit -m 'Start project'")
 
 # Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Git init helper')
     parser.add_argument('directory', type=str, help='destination directory')
