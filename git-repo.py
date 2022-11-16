@@ -25,7 +25,6 @@ def git_init_local(directory='', remote_path=''):
     os.system('git add .')
     os.system("git commit -m 'Start project'")
 
-# Press the green button in the gutter to run the script.
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Git init helper')
@@ -40,5 +39,5 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
     if args.client:
-        remote_url = input('Base path on remote (in. e. ssh://login@example.com/yopur/repo/)')
+        remote_url = input('Base path on remote (in. e. ssh://login@example.com/your/repo/)')
         git_init_local(args.directory, remote_url)
