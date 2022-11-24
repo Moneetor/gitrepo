@@ -41,3 +41,5 @@ if __name__ == '__main__':
     if args.client:
         remote_url = input('Base path on remote (in. e. ssh://login@example.com/your/repo/)')
         git_init_local(args.directory, remote_url)
+    else:
+        git_init_repo(args.directory)
